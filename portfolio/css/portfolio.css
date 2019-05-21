@@ -15,7 +15,7 @@ body {
 }
 
 .btn-xl {
-  padding: 1.25rem 2.5rem;
+  padding: 1rem 2rem;
 }
 
 .content-section {
@@ -49,9 +49,11 @@ h6 {
   color: rgba(0, 0, 0, 0.7);
 }
 
-/* Map */
-.map {
-  height: 30rem;
+.mail {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+    text-align: center;
 }
 
 @media (max-width: 992px) {
@@ -97,8 +99,8 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(60, 60, 60, 0.6))), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(60, 60, 60, 0.6) 100%), url("../img/bg-masthead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -127,6 +129,7 @@ h6 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
+  text-align: center
 }
 
 #mainNav .navbar-brand {
@@ -147,9 +150,9 @@ h6 {
 }
 
 #mainNav .navbar-nav > li > a {
-  font-size: 11px;
+  font-size: 13px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-transform: uppercase;
 }
 
@@ -361,14 +364,15 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: transparent !important;
+  border: 2px solid #ecb807 !important;
   color: #fff !important;
+  font-weight: 300 !important;
+  letter-spacing: 2px !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  color: #ecb807 !important;
 }
 
 .btn-secondary {
