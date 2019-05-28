@@ -42,8 +42,12 @@ h4,
 h5,
 h6 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-weight: 700;
   letter-spacing: 1px;
+}
+
+h1{
+  font-size: 4rem;
 }
 
 p {
@@ -63,6 +67,7 @@ section h2 {
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
+  /* background-color: #313131; */
   -webkit-transition: all .35s;
   transition: all .35s;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
@@ -113,6 +118,52 @@ section h2 {
   color: #fdcc52;
 }
 
+#features {
+  background-color: #313131;
+}
+
+#features h2, h3, p{
+  color:white;
+}
+
+#headerbereich{
+
+/*  background-color: rgb(250, 70, 70);
+  -webkit-filter: drop-shadow(5px 5px 3px rgba(0,0,0,0.7));
+  filter: drop-shadow(5px 5px 3px rgba(0,0,0,0.7));*/
+  background: -moz-linear-gradient(-45deg, #f85032 0%, #ef7b6b 60%, #fa4646 60%, #f02f17 71%, #e73827 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #f85032 0%,#ef7b6b 60%,#fa4646 60%,#f02f17 71%,#e73827 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #f85032 0%,#ef7b6b 60%,#fa4646 60%,#f02f17 71%,#e73827 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#headerbereich h1{
+  margin-bottom: 1rem !important;
+  font-size: 70px;
+  /* color: rgb(100, 5, 5); */
+  /* color: rgb(204, 4, 4); */
+  color: #313131;
+ /*  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5); */
+/*  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.219); */
+  
+}
+
+#headerbereich h2{
+  font-size: 1.5em;
+  line-height: 1.4em;
+/*   color: rgba(80, 4, 4, 0.658);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5); */
+  color: rgba(40, 40, 40, 0.7);
+  padding-left: 7px;
+}
+
+#headerbereich p{
+  color: rgba(40, 40, 40, 0.7);
+  padding-left: 7px;
+}
+/*--------------------------------------------
+Desktop Navigation
+---------------------------------------------*/
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
@@ -158,9 +209,10 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/bg-pattern.png"), #7b4397;
+  
+  /*background: url("../img/bg-pattern.png"), #7b4397;
   background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);*/
 }
 
 header.masthead .header-content {
@@ -289,7 +341,7 @@ section.features .feature-item i {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/bg-cta.jpg");
+  background-image: url("../img/img-gewichtskontrolle.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -319,7 +371,7 @@ section.cta .overlay {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 section.contact {
@@ -373,6 +425,8 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 
+
+
 footer {
   padding: 25px 0;
   text-align: center;
@@ -400,8 +454,10 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .bg-primary {
   background: #fdcc52;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fdcc52), to(#fdc539));
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: -moz-linear-gradient(-45deg, #f85032 0%, #ef7b6b 60%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #f85032 0%,#ef7b6b 60%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #f85032 0%,#ef7b6b 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  
 }
 
 .text-primary {
@@ -435,4 +491,19 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+.col-md-8.mx-auto {
+max-width: none;
+padding: 0px;
+}
+
+.badges {
+  height: 60px;
+  width: auto;
+}
+.badges a img{
+  height: 3rem;
+  text-align: center; 
+  padding-left: 5px;
 }

@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
   <!-- Custom styles for this template -->
-  <link href="css/new-age.min.css" rel="stylesheet">
+  <link href="css/new-age.css" rel="stylesheet">
 
 </head>
 
@@ -33,7 +33,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">HOME</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -41,7 +41,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+            <!-- <a class="nav-link js-scroll-trigger" href="#download">Download</a> -->
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#features">Features</a>
@@ -54,13 +54,21 @@
     </div>
   </nav>
 
-  <header class="masthead">
+  <header class="masthead" id="headerbereich">
     <div class="container h-100">
       <div class="row h-100">
         <div class="col-lg-7 my-auto">
           <div class="header-content mx-auto">
-            <h1 class="mb-5">New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
-            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
+            <h1 class="mb-5">Weight Control</h1>
+            <div class="col-md-8 mx-auto">
+              <h2 class="section-heading">Die App bietet dir eine einfache Möglichkeit, dein Gewicht zu erfassen und unterstützt dich auf deinem Weg zur Traumfigur.</h2>
+              <p>Starte nun mit der Überwachung der Abnahme oder Zunahme deines Gewichtes.</p>
+              <div class="badges">
+                <a class="badge-link" href="https://play.google.com/store/apps/details?id=ch.rawi.weightcontrol&gl=CH"><img src="img/google-play-badge.svg" alt=""></a>
+                <!-- <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a> -->
+              </div>
+            </div>
+            <!--<a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>-->
           </div>
         </div>
         <div class="col-lg-5 my-auto">
@@ -71,9 +79,10 @@
                   <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                   <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
                 </div>
+
                 <div class="button">
-                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                </div>
+                   <!--You can hook the "home button" to some JavaScript events or just remove it-->
+                </div> 
               </div>
             </div>
           </div>
@@ -82,26 +91,36 @@
     </div>
   </header>
 
-  <section class="download bg-primary text-center" id="download">
+<!--   <section class="download bg-primary text-center" id="download">
     <div class="container">
       <div class="row">
         <div class="col-md-8 mx-auto">
           <h2 class="section-heading">Discover what all the buzz is about!</h2>
           <p>Our app is available on any mobile device! Download now to get started!</p>
           <div class="badges">
-            <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
+            <a class="badge-link" href="https://play.google.com/store/apps/details?id=ch.rawi.weightcontrol&gl=CH"><img src="img/google-play-badge.svg" alt=""></a>
             <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
           </div>
         </div>
       </div>
     </div>
+  </section> -->
+
+  <section class="cta">
+    <div class="cta-content">
+      <div class="container">
+        <h2>Stop waiting.<br>Start building.</h2>
+        <!-- <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a> -->
+      </div>
+    </div>
+    <div class="overlay"></div>
   </section>
 
   <section class="features" id="features">
     <div class="container">
       <div class="section-heading text-center">
-        <h2>Unlimited Features, Unlimited Fun</h2>
-        <p class="text-muted">Check out what you can do with this app theme!</p>
+        <h2>Features</h2>
+        <p>Was die App dir bietet:</p>
         <hr>
       </div>
       <div class="row">
@@ -126,15 +145,15 @@
               <div class="col-lg-6">
                 <div class="feature-item">
                   <i class="icon-screen-smartphone text-primary"></i>
-                  <h3>Device Mockups</h3>
-                  <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                  <h3>Übersichtliches Design</h3>
+                  <p> Ansprechendes Design in verschiedenen Farben und einfache Bedienung</p>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="feature-item">
                   <i class="icon-camera text-primary"></i>
-                  <h3>Flexible Use</h3>
-                  <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                  <h3>Gewichtsverlauf</h3>
+                  <p>Optimale Kontrolle dank Gewichtsverlauf mit Diagramm und BMI Rechner</p>
                 </div>
               </div>
             </div>
@@ -142,15 +161,15 @@
               <div class="col-lg-6">
                 <div class="feature-item">
                   <i class="icon-present text-primary"></i>
-                  <h3>Free to Use</h3>
-                  <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                  <h3>Zielgewicht</h3>
+                  <p>Definiere dein Zielgewicht</p>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="feature-item">
                   <i class="icon-lock-open text-primary"></i>
-                  <h3>Open Source</h3>
-                  <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                  <h3>Kostenlos</h3>
+                  <p>Dieses Gewichtstagebuch steht zu deiner freien Verfühgung</p>
                 </div>
               </div>
             </div>
@@ -160,7 +179,7 @@
     </div>
   </section>
 
-  <section class="cta">
+<!--   <section class="cta">
     <div class="cta-content">
       <div class="container">
         <h2>Stop waiting.<br>Start building.</h2>
@@ -168,14 +187,12 @@
       </div>
     </div>
     <div class="overlay"></div>
-  </section>
+  </section> -->
 
   <section class="contact bg-primary" id="contact">
     <div class="container">
-      <h2>We
-        <i class="fas fa-heart"></i>
-        new friends!</h2>
-      <ul class="list-inline list-social">
+      <h2>Ich wünsche dir viel Erfolg auf deinem Weg zu deinem Traumgewicht.</h2>
+      <!-- <ul class="list-inline list-social">
         <li class="list-inline-item social-twitter">
           <a href="#">
             <i class="fab fa-twitter"></i>
@@ -191,7 +208,7 @@
             <i class="fab fa-google-plus-g"></i>
           </a>
         </li>
-      </ul>
+      </ul> -->
     </div>
   </section>
 
