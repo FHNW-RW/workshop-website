@@ -1,0 +1,32 @@
+#headerbereich{
+  background: -moz-linear-gradient(-45deg, #5ec275 0%, #5ec275 60%, #38b054 60%, #28a745 71%, #28a745 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #5ec275 0%,#5ec275 60%,#38b054 60%,#28a745 71%,#28a745 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #5ec275 0%,#5ec275 60%,#38b054 60%,#28a745 71%,#28a745 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ec275', endColorstr='#28a745',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#headerbereich h1{
+  margin-bottom: 1rem !important;
+  font-size: 70px;
+  color: white;
+}
+
+#headerbereich h2{
+  font-size: 1.5em;
+  line-height: 1.4em;
+  color: rgba(255, 255, 255, 0.9);
+  padding-left: 7px;
+}
+
+#headerbereich p {
+  color: rgba(255, 255, 255, 0.9);
+  padding-left: 7px;
+}
+
+section.cta {
+  position: relative;
+  padding: 250px 0;
+  background-image: url("../img/img-todolist.jpg");
+  background-position: center;
+  background-size: cover;
+}
